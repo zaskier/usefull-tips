@@ -10,3 +10,9 @@
 - git add -A || git add file
 - git commit -m "Message"
 - git push
+
+## Commit to repo Branch
+- git checkout -b your-new-branch
+- git add <files>
+- git commit -m <message>
+- git push origin your-new-branch
