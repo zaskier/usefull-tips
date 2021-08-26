@@ -16,3 +16,8 @@
 - git add <files>
 - git commit -m <message>
 - git push origin your-new-branch
+
+# GCP
+## Upload app engine
+- gcloud config set myproject
+- gcloud app deploy
