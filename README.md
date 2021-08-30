@@ -21,3 +21,6 @@
 ## Upload app engine
 - gcloud config set myproject
 - gcloud app deploy
+
+## flag for scripts to ignore prompts(at the end) 
+- - - quiet
