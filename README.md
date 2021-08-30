@@ -4,6 +4,7 @@
 ## delete git head(last repo)
 
 - git reset HEAD^
+- git reset --hard HEAD~2
 - git push -u origin master --force
  
 ## Commit to repo
