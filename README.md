@@ -23,4 +23,4 @@
 - gcloud app deploy
 
 ## flag for scripts to ignore prompts(at the end) 
-- - - quiet
+- -- quiet
