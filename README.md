@@ -18,6 +18,10 @@
 - git commit -m <message>
 - git push origin your-new-branch
 
+## Check repository
+
+- git checkout 
+
 # GCP
 ## Upload app engine
 - gcloud config set project myproject
