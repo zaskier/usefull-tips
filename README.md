@@ -29,3 +29,9 @@
 
 ## flag for scripts to ignore prompts(at the end) 
 - -- quiet
+
+#NPM
+## remove proxy setting
+- npm config rm http-proxy
+- npm config rm proxy
+
