@@ -35,3 +35,7 @@
 - npm config rm http-proxy
 - npm config rm proxy
 
+# CMD
+## windows account details
+- net user {username} /DOMAIN
+
