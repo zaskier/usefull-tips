@@ -30,6 +30,14 @@
 ## flag for scripts to ignore prompts(at the end) 
 - -- quiet
 
+## Logging filter example
+```
+ resource.type="gae_app"
+ resource.labels.module_id="default"
+ logName="project/project_id/logs/stderr" 
+```
+
+
 # NPM
 ## remove proxy setting
 - npm config rm http-proxy
