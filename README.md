@@ -36,6 +36,15 @@
  resource.labels.module_id="default"
  logName="project/project_id/logs/stderr" 
 ```
+## gShell delete project with liens
+```
+gcloud projects delete {project_id} 
+gcloud alpha resource-manager liens list
+gcloud alpha resource-manager liens delete {selected lien} 
+
+
+
+```
 
 
 # NPM
