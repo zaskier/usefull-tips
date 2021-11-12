@@ -22,6 +22,9 @@
 
 - git checkout 
 
+## Switch terminal account
+- git config -- global user.email "your@email.xx"
+
 # GCP
 ## Upload app engine
 - gcloud config set project myproject
