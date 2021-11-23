@@ -32,6 +32,13 @@
 
 ## flag for scripts to ignore prompts(at the end) 
 - -- quiet
+ 
+# NestJS
+ ## CLI
+ - nest g service cats
+ - nest g resource //command not only generates all the NestJS building blocks (module, service, controller classes) but also an entity class, DTO classes as well as the testing (.spec) files.
+ * --no-spec //no tests
+
 
 ## Logging filter example
 ```
