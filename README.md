@@ -1,18 +1,20 @@
 # usefull-tips
 
  #GIT
-## Commit to repo
-- git add -A || git add <files>
-- git commit -m "Message"
-- git push
- 
+
 ## Git multibranch project typical comands
+- git clone --branch <branchname> <project clone url>
 - git commit -m <message>
 - git push origin your-new-branch
- - git checkout <branch>//switch branches
+ - git checkout <branch>//check branch or switch branch
  - git pull REMOTE-NAME BRANCH-NAME //Pull from specific branch(REFSPEC specifies which refs to fetch and which local refs to update)
  - git merge // join 2 histories together
  - git rebase -reaply changes on top of another repo
+ 
+ ## Commit to repo
+- git add -A || git add <files>
+- git commit -m "Message"
+- git push
  
  
 ## delete git head(last repo)
@@ -20,10 +22,6 @@
 - git reset HEAD^
 - git reset --hard HEAD~2
 - git push -u origin master --force
- 
-## Check repository
-
-- git checkout 
 
 ## Switch terminal account
 - git config -- global user.email "your@email.xx"
