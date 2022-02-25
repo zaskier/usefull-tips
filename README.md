@@ -3,6 +3,7 @@
  # GIT
 
 ## Git multibranch project typical comands
+```
 - git clone --branch <branchname> <project clone url>
 - git commit -m <message>
 - git push origin your-new-branch
@@ -10,29 +11,45 @@
  - git pull REMOTE-NAME BRANCH-NAME //Pull from specific branch(REFSPEC specifies which refs to fetch and which local refs to update)
  - git merge // join 2 histories together
  - git rebase -reaply changes on top of another repo
+ ```
  
  ## Commit to repo
+ ```
 - git add -A || git add <files>
 - git commit -m "Message"
 - git push
+ ```
  
  
 ## delete git head(last repo)
-
+```
 - git reset HEAD^
 - git reset --hard HEAD~2
 - git push -u origin master --force
+ ```
 
 ## Switch terminal account
+ ```
 - git config -- global user.email "your@email.xx"
-
+```
 # GCP
 ## Upload app engine
+ ```
 - gcloud config set project myproject
 - gcloud app deploy
+ ```
 
 ## flag for scripts to ignore prompts(at the end) 
+ ```
 - -- quiet
+ ```
+ 
+ ## Logging filter example
+```
+ resource.type="gae_app"
+ resource.labels.module_id="default"
+ logName="project/project_id/logs/stderr" 
+```
  
 # NestJS
  ## CLI
@@ -49,30 +66,25 @@ npx ts-node node_modules/.bin/typeorm migration:revert
 npx ts-node node_modules/.bin/typeorm migration:generate -c seed -n  
  ```
 
-
-## Logging filter example
-```
- resource.type="gae_app"
- resource.labels.module_id="default"
- logName="project/project_id/logs/stderr" 
-```
 ## gShell delete project with liens
 ```
 gcloud projects delete {project_id} 
 gcloud alpha resource-manager liens list
 gcloud alpha resource-manager liens delete {selected lien} 
 
-
-
 ```
 
 
 # NPM
 ## remove proxy setting
+```
 - npm config rm http-proxy
 - npm config rm proxy
+```
 
 # CMD
 ## windows account details
+```
 - net user {username} /DOMAIN
+```
 
