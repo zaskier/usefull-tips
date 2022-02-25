@@ -1,6 +1,6 @@
 # usefull-tips
 
- #GIT
+ # GIT
 
 ## Git multibranch project typical comands
 - git clone --branch <branchname> <project clone url>
