@@ -87,4 +87,7 @@ gcloud alpha resource-manager liens delete {selected lien}
 ```
 - net user {username} /DOMAIN
 ```
-
+# Docker 
+```
+- docker system prune // will remove all volumes that are not used by at least one container.
+```
