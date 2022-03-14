@@ -82,6 +82,17 @@ gcloud alpha resource-manager liens delete {selected lien}
 - npm config rm proxy
 ```
 
+# NODE
+```
+- nvm install lts/fermium 
+/* lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0 (-> N/A)
+lts/dubnium -> v10.24.1 (-> N/A)
+lts/erbium -> v12.22.7 (-> N/A)
+lts/fermium -> v14.18.2 (-> N/A)
+lts/gallium -> v16.13.1 */
+```
 # CMD
 ## windows account details
 ```
