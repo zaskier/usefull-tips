@@ -81,7 +81,10 @@ gcloud alpha resource-manager liens delete {selected lien}
 - npm config rm http-proxy
 - npm config rm proxy
 ```
-
+## tests
+```
+- npm run tests:watch //then 'p' for regex to filter file name
+```
 # NODE
 ```
 - nvm install lts/fermium 
