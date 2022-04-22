@@ -105,3 +105,9 @@ lts/gallium -> v16.13.1 */
 ```
 - docker system prune // will remove all volumes that are not used by at least one container.
 ```
+# Docker GCP
+```
+- gcloud auth configure-docker
+- sudo docker tag {imagename}  gcr.io/{projectname}/{container}
+- docker push gcr.io/{projectname}/{container}
+```
