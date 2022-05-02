@@ -104,6 +104,8 @@ lts/gallium -> v16.13.1 */
 # Docker 
 ```
 - docker system prune // will remove all volumes that are not used by at least one container.
+- docker build -t react-docker:1.0.0-dev .   
+- docker run --rm -it --name web -p 3000:3000 react-docker:1.0.0-dev   
 ```
 # Docker GCP
 ```
