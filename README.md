@@ -50,6 +50,17 @@
  resource.labels.module_id="default"
  logName="project/project_id/logs/stderr" 
 ```
+
+## Firebase
+```
+// npm install -g firebase-tools
+- firebase login 
+- firebase projects:list
+- firebase init
+- firebase serve
+- firebase deploy
+```
+
  
 # NestJS
  ## CLI
