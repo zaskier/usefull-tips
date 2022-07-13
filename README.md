@@ -49,6 +49,8 @@
  resource.type="gae_app"
  resource.labels.module_id="default"
  logName="project/project_id/logs/stderr" 
+ timestamp>="2022-07-01T20:00:00.000Z"
+ timestamp<"2022-07-13T21:00:00.000Z"
 ```
 
 ## Firebase
