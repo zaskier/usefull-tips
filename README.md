@@ -116,6 +116,13 @@ lts/gallium -> v16.13.1 */
 ```
 - net user {username} /DOMAIN
 ```
+
+# MAC OS
+## kill port
+```
+lsof -i tcp:3000 
+```
+
 # Docker 
 ```
 - docker system prune // will remove all volumes that are not used by at least one container.
@@ -128,3 +135,5 @@ lts/gallium -> v16.13.1 */
 - sudo docker tag {imagename}  gcr.io/{projectname}/{container}
 - docker push gcr.io/{projectname}/{container}
 ```
+
+
