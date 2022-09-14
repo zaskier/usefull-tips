@@ -123,6 +123,13 @@ lts/gallium -> v16.13.1 */
 lsof -i tcp:3000 
 ```
 
+# Terraform 
+```
+- terraform init 
+- terraform plan  
+- terraform apply 
+- echo google_sql_database_instance.backend_sql.private_ip_address | terraform console //to check on local machine cloud resources values
+``` 
 # Docker 
 ```
 - docker system prune // will remove all volumes that are not used by at least one container.
