@@ -129,6 +129,7 @@ lsof -i tcp:3000
 - terraform plan  
 - terraform apply 
 - echo google_sql_database_instance.backend_sql.private_ip_address | terraform console //to check on local machine cloud resources values
+- terraform apply -var-file="terrafotn.test.tfvars"
 ``` 
 # Docker 
 ```
