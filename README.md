@@ -100,6 +100,11 @@ gcloud alpha resource-manager liens delete {selected lien}
 ```
 - npm run tests:watch //then 'p' for regex to filter file name
 ```
+# LINT
+```
+npx eslint .eslintrc
+```
+
 # NODE
 ```
 - nvm install lts/fermium 
