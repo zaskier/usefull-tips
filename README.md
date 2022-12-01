@@ -5,6 +5,7 @@
 ## Git multibranch project typical comands
 ```
 - git clone --branch <branchname> <project clone url>
+- git pull origin <branchname>
 - git commit -m <message>
 - git push origin your-new-branch
  - git checkout <branch>//check branch or switch branch
