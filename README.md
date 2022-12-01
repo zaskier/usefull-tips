@@ -123,10 +123,18 @@ lts/gallium -> v16.13.1 */
 - net user {username} /DOMAIN
 ```
 
-# MAC OS
+# LINUX
 ## kill port
 ```
 lsof -i tcp:3000 
+cd <directory> 
+cd - //go back
+cd /mnt
+ls
+mkdir <name>
+rmdir <name>
+rm - r <name>
+nano ".bashrc"  //ctrl+shift+x
 ```
 
 # Terraform 
