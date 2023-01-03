@@ -133,7 +133,17 @@ ls
 mkdir <name>
 rmdir <name>
 rm - r <name>
+rm -rf <dirname>
 nano ".bashrc"  //ctrl+shift+x
+wsl --shutdown //for windows WSL shuting
+```
+## Connect using the Cloud SQL Auth proxy
+```
+wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
+	#Make the Cloud SQL Auth proxy executable:
+chmod +x cloud_sql_proxy
+	#For Linux environments, use this command to launch the Cloud SQL Auth proxy:
+./cloud_sql_proxy -instances=INSTANCE_CONNECTION_NAME=tcp:0.0.0.0:1234
 ```
 
 # Terraform 
