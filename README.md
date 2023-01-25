@@ -72,6 +72,8 @@
   ```
  - nest generate app //default app
  - nest generate app orders //ake default app monorepo
+ - nest g app auth //monorepo module   
+ - nest g library common //monorepo common library
  - nest g service cats
  - nest g resource //command not only generates all the NestJS building blocks (module, service, controller classes) but also an entity class, DTO classes as well as the testing (.spec) files.
  * --no-spec //no tests
