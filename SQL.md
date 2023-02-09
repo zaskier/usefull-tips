@@ -29,7 +29,7 @@ knex.raw(`select * from foo where id = ${id}`) // NEVER DO THIS
  - typeorm schema:sync
  - typeorm query "SELECT * FROM USERS"
    ```
-## typeorm scripts
+## typeORM scripts
   ```
     "typeorm": "ts-node --transpile-only -r tsconfig-paths/register ./node_modules/typeorm/cli.js -f ./database/ormconfig.ts",
     "seeder": "ts-node --transpile-only -r tsconfig-paths/register ./node_modules/typeorm-seeding/dist/cli.js -r ./database",
