@@ -70,6 +70,7 @@
 # NestJS
  ## CLI
   ```
+ - nest generate <schematic> <name> [options] //nest generate res users
  - nest generate app //default app
  - nest generate app orders //ake default app monorepo
  - nest g app auth //monorepo module   
