@@ -102,6 +102,7 @@ gcloud alpha resource-manager liens delete {selected lien}
 ```
 - npm config rm http-proxy
 - npm config rm proxy
+- npm ci install //package.json depencencies
 ```
 ## tests
 ```
