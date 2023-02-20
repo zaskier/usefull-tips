@@ -102,11 +102,18 @@ gcloud alpha resource-manager liens delete {selected lien}
 ```
 - npm config rm http-proxy
 - npm config rm proxy
-- npm ci install //package.json depencencies
 ```
 ## tests
 ```
 - npm run tests:watch //then 'p' for regex to filter file name
+```
+## others
+```
+- npm ci install //package.json depencencies
+- npm 
+- npm --v
+- npm outdated //{-g} for globall packages
+- npm update //{--save] to update package.json
 ```
 # LINT
 ```
