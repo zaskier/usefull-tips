@@ -131,6 +131,11 @@ lts/erbium -> v12.22.7 (-> N/A)
 lts/fermium -> v14.18.2 (-> N/A)
 lts/gallium -> v16.13.1 */
 ```
+## TS
+```
+- tsc //transpile all the file according to your tsconfig(usually prod).
+- ts-node //start from the entry file and transpile the file step by step through the tree based on the import/export.(usually dev with --watch and nodemon).
+```
 # CMD
 ## windows account details
 ```
