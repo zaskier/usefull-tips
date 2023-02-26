@@ -27,7 +27,7 @@
  - git flow release start '0.1.0'
  - git push --set-upstream origin release/0.1.0
  - touch release-fix.html
- - git dd . 
+ - git add . 
  - git commit -m 'release fix'
  - git push origin
  - git flow release finish '0.1.'
