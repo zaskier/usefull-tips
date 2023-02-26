@@ -13,9 +13,27 @@
  - git merge // join 2 histories together
  - git rebase -reaply changes on top of another repo
  - git fetch --prune //sync with current repo version
-
  ```
- 
+ ## Git flow default init test
+ ```
+ - git flow init //only local
+ - git push --set-upstream origin development
+ - git flow feature start feature_branch
+ - touch feature.html
+ - git add .
+ - git commit -m 'feature complete'
+ - git flow feature finish feature_branch
+ - git push origin
+ - git flow release start '0.1.0'
+ - git push --set-upstream origin release/0.1.0
+ - touch release-fix.html
+ - git dd . 
+ - git commit -m 'release fix'
+ - git push origin
+ - git flow release finish '0.1.'
+ - git push origin 
+ ```
+
  ## Commit to repo
  ```
 - git add -A || git add <files>
