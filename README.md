@@ -173,6 +173,7 @@ rm - r <name>
 rm -rf <dirname>
 nano ".bashrc"  //ctrl+shift+x
 wsl --shutdown //for windows WSL shuting
+sudo chmod -R 777 node_modules 
 ```
 ## Connect using the Cloud SQL Auth proxy
 ```
@@ -193,6 +194,11 @@ chmod +x cloud_sql_proxy
 ``` 
 # Docker 
 ```
+- docker-compose up    
+- docker-compose down  
+- docker container ls -a
+- docker container exec -it {{CONTAINER_ID}} npm run start
+- docker system prune -a --volumes     
 - docker system prune // will remove all volumes that are not used by at least one container.
 - docker build -t react-docker:1.0.0-dev .   
 - docker run --rm -it --name web -p 3000:3000 react-docker:1.0.0-dev   
