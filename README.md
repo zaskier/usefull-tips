@@ -114,7 +114,6 @@ gcloud alpha resource-manager liens delete {selected lien}
 
 ```
 
-
 # NPM
 ## remove proxy setting
 ```
@@ -132,6 +131,10 @@ gcloud alpha resource-manager liens delete {selected lien}
 - npm --v
 - npm outdated //{-g} for globall packages
 - npm update //{--save] to update package.json
+```
+## GraphQL
+```
+- npm run graphql
 ```
 # LINT
 ```
