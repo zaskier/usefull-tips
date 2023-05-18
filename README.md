@@ -177,11 +177,16 @@ cd /mnt
 ls
 mkdir <name>
 rmdir <name>
+touch
+nano
 rm - r <name>
 rm -rf <dirname>
 nano ".bashrc"  //ctrl+shift+x
 wsl --shutdown //for windows WSL shuting
 sudo chmod -R 777 node_modules 
+sudo apt-get install <package name>//ubuntu
+sudo apt install [package name] //debian
+chmod -R 777 ./ //add permission fro files
 ```
 ## Connect using the Cloud SQL Auth proxy
 ```
