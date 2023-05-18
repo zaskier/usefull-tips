@@ -120,6 +120,11 @@ gcloud alpha resource-manager liens delete {selected lien}
 - npm config rm http-proxy
 - npm config rm proxy
 ```
+## common flags
+```
+--legacy-peer-deps
+ --save-dev
+```
 ## tests
 ```
 - npm run tests:watch //then 'p' for regex to filter file name
