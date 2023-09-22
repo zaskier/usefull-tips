@@ -136,6 +136,13 @@ gcloud alpha resource-manager liens delete {selected lien}
 - npm --v
 - npm outdated //{-g} for globall packages
 - npm update //{--save] to update package.json
+- npm set registry  https://registry.mycorp.com
+- npm adduser --registry  https://registry.mycorp.com
+- npm login --registry https://registry.mycorp.com
+- npm login --registry=https://registry.mycorp.com
+- npm publish --registry http://verdaccio-dev.springpod.com --tag dev
+
+npm unpublish <package-name>@<version>
 ```
 ## GraphQL
 ```
@@ -210,6 +217,11 @@ chmod +x cloud_sql_proxy
 - docker-compose up    
 - docker-compose down  
 - docker container ls -a
+- docker image list 
+- docker rmi <image-id>
+- docker network ls
+- docker build -t <service-name> .
+- docker network inspect app-network
 - docker container exec -it {{CONTAINER_ID}} npm run start
 - docker system prune -a --volumes     
 - docker system prune // will remove all volumes that are not used by at least one container.
