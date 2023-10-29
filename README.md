@@ -12,6 +12,7 @@
  - git pull REMOTE-NAME BRANCH-NAME //Pull from specific branch(REFSPEC specifies which refs to fetch and which local refs to update)
  - git merge // join 2 histories together
  - git rebase -reaply changes on top of another repo
+ - git reset --merge // move the branch pointer to a previous commit
  - git fetch --prune //sync with current repo version
  ```
  ## Git flow default init test
