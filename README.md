@@ -189,6 +189,8 @@ touch
 nano
 rm - r <name>
 rm -rf <dirname>
+fuser 3000/tcp 
+fuser -k 8080/tcp
 nano ".bashrc"  //ctrl+shift+x
 wsl --shutdown //for windows WSL shuting
 sudo chmod -R 777 node_modules 
