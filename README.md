@@ -170,11 +170,6 @@ lts/gallium -> v16.13.1 */
 - tsc //transpile all the file according to your tsconfig(usually prod).
 - ts-node //start from the entry file and transpile the file step by step through the tree based on the import/export.(usually dev with --watch and nodemon).
 ```
-# CMD
-## windows account details
-```
-- net user {username} /DOMAIN
-```
 
 # LINUX
 ```
@@ -190,9 +185,8 @@ nano
 rm - r <name>
 rm -rf <dirname>
 fuser 3000/tcp 
-fuser -k 8080/tcp
+fuser -k 3000/tcp
 nano ".bashrc"  //ctrl+shift+x
-wsl --shutdown //for windows WSL shuting
 sudo chmod -R 777 node_modules 
 sudo apt-get install <package name>//ubuntu
 sudo apt install [package name] //debian
