@@ -227,8 +227,11 @@ chmod +x cloud_sql_proxy
 - docker run --rm -it --name web -p 3000:3000 react-docker:1.0.0-dev   
 - docker-compose up --build -V //in development to add new container
 ```
-# Docker GCP
+# Docker Container registry GCP
 ```
+- sudo -s
+- gcloud auth configure-docker
+- gcloud auth login
 - gcloud auth configure-docker
 - sudo docker tag {imagename}  gcr.io/{projectname}/{container}
 - docker push gcr.io/{projectname}/{container}
