@@ -191,6 +191,7 @@ sudo chmod -R 777 node_modules
 sudo apt-get install <package name>//ubuntu
 sudo apt install [package name] //debian
 chmod -R 777 ./ //add permission fro files
+docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a //list container used ports
 ```
 ## Connect using the Cloud SQL Auth proxy
 ```
