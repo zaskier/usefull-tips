@@ -173,7 +173,9 @@ lts/gallium -> v16.13.1 */
 
 # LINUX
 ```
-lsof -i tcp:3000 // kill port
+lsof -i tcp:3000 
+fuser 8080/tcp //check port
+fuser -k 8080/tcp //kill port
 cd <directory> 
 cd - //go back
 cd /mnt
