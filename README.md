@@ -83,6 +83,7 @@
 - firebase init
 - firebase serve
 - firebase deploy
+- firebase emulators:start
 ```
 
  
