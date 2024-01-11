@@ -4,6 +4,7 @@
 
 ## Git multibranch project typical comands
 ```
+- git cherry-pick <commit>
 - git clone --branch <branchname> <project clone url>
 - git pull origin <branchname>
 - git commit -m <message>
@@ -14,6 +15,12 @@
  - git rebase -reaply changes on top of another repo
  - git reset --merge // move the branch pointer to a previous commit
  - git fetch --prune //sync with current repo version
+ ```
+ ## Git stash
+ ```
+git stash
+git pull <remote name> <remote branch name> (or) switch branch
+git stash apply --index
  ```
  ## Git flow default init test
  ```
@@ -32,7 +39,7 @@
  - git commit -m 'release fix'
  - git push origin
  - git flow release finish '0.1.'
- - git push origin 
+ - git push origin
  ```
 
  ## Commit to repo
