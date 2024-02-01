@@ -187,7 +187,7 @@ fuser -k 8080/tcp //kill port
 cd <directory> 
 cd - //go back
 cd /mnt
-ls
+ls -a /Volumes //external disk location
 mkdir <name>
 rmdir <name>
 touch
@@ -202,6 +202,9 @@ sudo apt-get install <package name>//ubuntu
 sudo apt install [package name] //debian
 chmod -R 777 ./ //add permission fro files
 docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a //list container used ports
+
+
+
 ```
 ## Connect using the Cloud SQL Auth proxy
 ```
@@ -246,5 +249,3 @@ chmod +x cloud_sql_proxy
 - sudo docker tag {imagename}  gcr.io/{projectname}/{container}
 - docker push gcr.io/{projectname}/{container}
 ```
-
-
