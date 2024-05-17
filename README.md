@@ -192,6 +192,7 @@ mkdir <name>
 rmdir <name>
 touch
 nano
+pwd //print working directory
 rm - r <name>
 rm -rf <dirname>
 fuser 3000/tcp 
