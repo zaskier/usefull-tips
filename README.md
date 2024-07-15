@@ -205,9 +205,15 @@ chmod -R 777 ./ //add permission fro files
 docker container ls --format "table {{.ID}}\t{{.Names}}\t{{.Ports}}" -a //list container used ports
 ## ARCH
 sudo pacman -U docker-desktop-x86_64.pkg.tar.zstc //install
-
-
-
+pacman {-h --help}
+pacman {-V --version}
+pacman {-D --database} <options> <package(s)>
+pacman {-F --files}    [options] [file(s)]
+pacman {-Q --query}    [options] [package(s)]
+pacman {-R --remove}   [options] <package(s)>
+pacman {-S --sync}     [options] [package(s)]
+pacman {-T --deptest}  [options] [package(s)]
+pacman {-U --upgrade}  [options] <file(s)>
 
 ```
 ## Connect using the Cloud SQL Auth proxy
