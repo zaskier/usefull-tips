@@ -1,8 +1,21 @@
 # usefull-tips
 
  # GIT
-
-## Git multibranch project typical comands
+ 
+## Git rebasing
+```
+ - git rebase -i --root
+ -- drop //or edit
+ - git log --oneline //to validate changes in git history+ also valieste files
+ - git push origin main --force
+```
+## Git delete git head(last commits)
+```
+- git reset --soft HEAD~1
+- git reset --hard HEAD~1
+- git push -u origin master --force
+ ```
+## Git multibranch commands
 ```
 - git cherry-pick <commit>
 - git clone --branch <branchname> <project clone url>
@@ -12,13 +25,13 @@
  - git checkout <branch>//check branch or switch branch
  - git pull REMOTE-NAME BRANCH-NAME //Pull from specific branch(REFSPEC specifies which refs to fetch and which local refs to update)
  - git merge // join 2 histories together
- - git rebase -reaply changes on top of another repo
  - git reset --merge // move the branch pointer to a previous commit
  - git fetch --prune //sync with current repo version
  ```
  ## Git stash
  ```
 git stash
+git stash pop
 git pull <remote name> <remote branch name> (or) switch branch
 git stash apply --index
  ```
@@ -40,21 +53,6 @@ git stash apply --index
  - git push origin
  - git flow release finish '0.1.'
  - git push origin
- ```
-
- ## Commit to repo
- ```
-- git add -A || git add <files>
-- git commit -m "Message"
-- git push
- ```
- 
- 
-## delete git head(last repo)
-```
-- git reset HEAD^
-- git reset --hard HEAD~2
-- git push -u origin master --force
  ```
 
 ## Switch terminal account
