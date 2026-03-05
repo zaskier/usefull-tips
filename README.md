@@ -1,5 +1,38 @@
 # usefull-tips
 
+# KUBERNETES
+## configmaps
+```
+kubectl create configmap webapp-config-map \
+  --from-literal=APP_COLOR=darkblue \
+  --from-literal=APP_OTHER=somevalue
+```
+## secrets
+```
+kubectl create secret generic db-secret \
+--from-literal=DB_Host=sql01 \
+--from-literal=DB_User=root \
+--from-literal=DB_Password=password123
+```
+## general
+```
+kubectl edit pod webapp-color
+kubectl create pod webapp-color-v2
+kubectl delete pod webapp-color
+```
+
+## Most used Linux commands in Kubernetes 
+```
+ ls
+ ps aux //See running processes
+ env // Check environment variables
+ curl
+ top //Monitor CPU & memory
+ cat
+ df -h //Disk usage
+ tail -f //Watch logs in real time
+```
+
  # GIT
  
 ## Git rebasing
@@ -249,7 +282,7 @@ chmod +x cloud_sql_proxy
 - docker-compose watch
 - docker compose up --build
 ```
-# Docker Container registry GCP
+## Docker Container registry GCP
 ```
 - sudo -s
 - gcloud auth configure-docker
