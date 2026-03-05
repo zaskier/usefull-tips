@@ -19,9 +19,14 @@ kubectl create secret generic db-secret \
 kubectl edit pod webapp-color
 kubectl create pod webapp-color-v2
 kubectl delete pod webapp-color
+kubectl get
+apply
+exec
+port-forward acale
+rollout
 ```
 
-## Most used Linux commands in Kubernetes 
+## Common Linux commands used when debugging inside Kubernetes pods
 ```
  ls
  ps aux //See running processes
@@ -32,6 +37,43 @@ kubectl delete pod webapp-color
  df -h //Disk usage
  tail -f //Watch logs in real time
 ```
+
+## Kinds notes
+Core - workload kinds
+Pod	- Smallest deployable unit
+Deployment - Manages stateless applications
+StatefulSet	- Stateful applications
+DaemonSet - Runs pod on every node
+Job - Run a task once
+CronJob - Scheduled job
+
+**Networking kinds
+**
+Service - Expose pods internally
+Ingress - HTTP routing into cluster
+NetworkPolicy - Control traffic between pods
+
+**Configuration kinds
+**
+
+ConfigMap - Store configuration
+Secret - Store sensitive data
+ResourceQuota - Limit resource usage
+LimitRange - Set resource constraints
+
+**Storage kinds
+**
+PersistentVolume - (PV)	Storage resource
+PersistentVolumeClaim - (PVC)	Request storage
+StorageClass - Storage provisioning
+
+**Access & security kinds
+**
+ServiceAccount - Identity for pods
+Role - Permissions within namespace
+RoleBinding - Attach role to user/service
+ClusterRole - Cluster-wide permissions
+ClusterRoleBinding - Attach cluster role
 
  # GIT
  
