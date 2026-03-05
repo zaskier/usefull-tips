@@ -39,7 +39,9 @@ rollout
 ```
 
 ## Kinds notes
-Core - workload kinds
+```
+
+--Core - workload kinds
 Pod	- Smallest deployable unit
 Deployment - Manages stateless applications
 StatefulSet	- Stateful applications
@@ -47,33 +49,30 @@ DaemonSet - Runs pod on every node
 Job - Run a task once
 CronJob - Scheduled job
 
-**Networking kinds
-**
+--Networking kinds
 Service - Expose pods internally
 Ingress - HTTP routing into cluster
 NetworkPolicy - Control traffic between pods
 
-**Configuration kinds
-**
+--Configuration kinds
 
 ConfigMap - Store configuration
 Secret - Store sensitive data
 ResourceQuota - Limit resource usage
 LimitRange - Set resource constraints
 
-**Storage kinds
-**
+--Storage kinds
 PersistentVolume - (PV)	Storage resource
 PersistentVolumeClaim - (PVC)	Request storage
 StorageClass - Storage provisioning
 
-**Access & security kinds
-**
+--Access & security kinds
 ServiceAccount - Identity for pods
 Role - Permissions within namespace
 RoleBinding - Attach role to user/service
 ClusterRole - Cluster-wide permissions
 ClusterRoleBinding - Attach cluster role
+```
 
  # GIT
  
