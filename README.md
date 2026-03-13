@@ -308,7 +308,8 @@ chmod +x cloud_sql_proxy
 # Docker 
 ```
 - docker-compose up    
-- docker-compose down  
+- docker-compose down
+- docker-compose up -d --force-recreate
 - docker container ls -a
 - docker image list 
 - docker rmi <image-id>
